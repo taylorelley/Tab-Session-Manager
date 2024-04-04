@@ -51,15 +51,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sienori/Tab-Session-Manager.git"
+    "url": "git+https://github.com/taylorelley/Tab-Session-Manager.git"
   },
   "author": "Sienori",
   "license": "MPL-2.0",
   "description": "WebExtensions for saving and restoring sessions.",
   "bugs": {
-    "url": "https://github.com/sienori/Tab-Session-Manager/issues"
+    "url": "https://github.com/taylorelley/Tab-Session-Manager/issues"
   },
-  "homepage": "https://github.com/sienori/Tab-Session-Manager#readme",
+  "homepage": "https://github.com/taylorelley/Tab-Session-Manager#readme",
   "main": ".src/manifest.json",
   "keywords": [
     "webextensions",

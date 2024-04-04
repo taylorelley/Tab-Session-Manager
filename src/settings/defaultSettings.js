@@ -101,7 +101,7 @@ export default [
             title: "deviceNameLabel",
             captions: ["deviceNameCaptionLabel"],
             type: "text",
-            placeholder: "My laptop",
+            placeholder: "TC Desk PC",
             default: ""
           },
           {
@@ -138,7 +138,7 @@ export default [
         title: "ifAutoSaveLabel",
         captions: ["ifAutoSaveCaptionLabel"],
         type: "checkbox",
-        default: true,
+        default: false,
         childElements: [
           {
             id: "autoSaveInterval",
@@ -166,7 +166,7 @@ export default [
         title: "ifAutoSaveWhenCloseLabel",
         captions: ["ifAutoSaveWhenCloseCaptionLabel"],
         type: "checkbox",
-        default: true,
+        default: false,
         childElements: [
           {
             id: "autoSaveWhenCloseLimit",
@@ -184,7 +184,7 @@ export default [
         title: "ifAutoSaveWhenExitBrowserLabel",
         captions: ["ifAutoSaveWhenExitBrowserCaptionLabel"],
         type: "checkbox",
-        default: true,
+        default: false,
         childElements: [
           {
             id: "autoSaveWhenExitBrowserLimit",
@@ -202,7 +202,7 @@ export default [
         title: "useTabTitleforAutoSaveLabel",
         captions: ["useTabTitleforAutoSaveCaptionLabel"],
         type: "checkbox",
-        default: true
+        default: false
       }
     ]
   },
@@ -249,7 +249,7 @@ export default [
         title: "shouldTrackNewWindowLabel",
         captions: ["shouldTrackNewWindowCaptionLabel"],
         type: "checkbox",
-        default: true,
+        default: false,
       }
     ]
   },
@@ -268,7 +268,7 @@ export default [
             title: "individualBackupLabel",
             captions: ["individualBackupCaptionLabel"],
             type: "checkbox",
-            default: true,
+            default: false,
           },
           {
             id: "backupFolder",
@@ -304,7 +304,7 @@ export default [
             title: "includesAutoSaveToSyncLabel",
             captions: ["includesAutoSaveToSyncCaptionLabel"],
             type: "checkbox",
-            default: true
+            default: false
           }
         ]
       }
@@ -464,7 +464,7 @@ export default [
         title: "isShowOptionsPageWhenUpdatedLabel",
         captions: ["isShowOptionsPageWhenUpdatedCaptionLabel"],
         type: "checkbox",
-        default: true
+        default: false
       },
       {
         id: "isDebugMode",

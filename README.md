@@ -43,7 +43,7 @@ You can contribute by translating Tab Session Manager on **[Crowdin](https://cro
 
 > Required: Node 18.17.1
 
-1. Clone the repository `git clone https://github.com/sienori/Tab-Session-Manager`  
+1. Clone the repository `git clone https://github.com/taylorelley/Tab-Session-Manager`  
 2. Create the file `src/credentials.js`  
   ```src/credentials.js
   export const clientId = "xxx"
